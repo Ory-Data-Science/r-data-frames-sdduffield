@@ -1,5 +1,5 @@
 #Exercise 2
-#Set working directory to data folder in the r-data-frames-sdduffield folder on Github
+#Set working directory to the r-data-frames-sdduffield folder on Github
 install.packages("dplyr")
 library(dplyr)
 library(tidyverse)
@@ -26,3 +26,4 @@ filter(shrub_dims, height > 5)
 #2.7
 shrub_data_w_vols <- mutate(shrub_dims, volume = length * width * height)
 print(shrub_data_w_vols)
+
